@@ -1,22 +1,24 @@
 {
-  "name": "nodejs-sandbox",
+  "name": "bare-server-docker",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
   "scripts": {
+    "build": "echo \"No build specified\" && exit 1",
+    "test": "echo \"No test specified\" && exit 1",
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
+    "url": "git+https://github.com/krtn0828/bare-server-docker.git"
   },
   "keywords": [],
-  "author": "Ives van Hoorne",
+  "author": "krtn0828",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
+    "url": "https://github.com/krtn0828/bare-server-docker/issues"
   },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "homepage": "https://github.com/krtn0828/bare-server-docker#readme",
   "devDependencies": {
     "nodemon": "^3.0.1"
   },
